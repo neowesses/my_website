@@ -3,7 +3,7 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 const context = canvas.getContext("2d");
-const frameCount = 120;
+const frameCount = 100;
 
 const currentFrame = (index) => `./mb/${(index + 1).toString()}.jpg`;
 
