@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+}
+
+canvas {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.details {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.milliybiz-text {
+  position: fixed;
+  z-index: 2;
+  color: #191F1D;
+  font-size: 30px;
+  right: 50%;
+  bottom: 50%;
+  transform: translate(-20%, -50%);
+  font-family: "StiffStaff-Heavy";
+}
+
+.socials{
+  position: fixed;
+  z-index: 2;
+  right: 140px;
+}
+
+@media screen and (max-width: 1024px) {
+  .ball-text {
+    font-size: 2rem;
+    right: 50%;
+    bottom: 25%;
+    transform: translate(50%, 50%);
+  }
+}
